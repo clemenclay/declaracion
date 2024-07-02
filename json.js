@@ -1,6 +1,6 @@
 const json = {
     "locale": "es",
-    "logo": "https://atencionvirtual.agcontrol.gob.ar//images/logos/logo-agc-mail.png",
+    "logo": "https://clemenclay.github.io/declaracion/logo-agc-mail.png",
     "logoWidth": "230",
     "logoHeight": "81",
 
