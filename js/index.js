@@ -32,7 +32,7 @@ $(document).ready(function() {
 });
 
 
-survey.applyTheme(SurveyTheme.ContrastLight);
+// survey.applyTheme(SurveyTheme.ContrastLight);
 
 survey.applyTheme({
     "themeName": "contrast",
@@ -132,10 +132,20 @@ survey.applyTheme({
 
 // Manejar el evento onComplete de SurveyJS
 
-survey.onComplete.add((sender, options) => {
-    
-    saveSurveyToPdf("surveyResult.pdf", survey);
 
+
+// Obtener la fecha y hora actual en el formato deseado
+const currentDate = new Date();
+const formattedDate = currentDate.toLocaleString('es-ES', { timeZone: 'America/Argentina/Buenos_Aires' })
+  .replace(',', '') // eliminar la coma de separación de fecha y hora
+  .replace(/\//g, '-') // reemplazar barras con guiones
+  .replace(/\s+/g, '_') // reemplazar espacios con guiones bajos
+  .replace(/:/g, '-'); // reemplazar dos puntos con guiones
+
+survey.onComplete.add((sender, options) => {
+  // Usar comillas invertidas y la sintaxis de interpolación para formar el nombre del archivo
+  const fileName = `Declaracion-Jurada_${formattedDate}.pdf`;
+  saveSurveyToPdf(fileName, survey);
 });
 
 
@@ -145,7 +155,7 @@ survey.addNavigationItem({
     id: "deshabilit",
     title: "Save as PDF",
     action: function() {
-        saveSurveyToPdf("surveyResult.pdf", survey);
+        saveSurveyToPdf("Resultado_${formattedDate}.pdf", survey);
     }
 });
 

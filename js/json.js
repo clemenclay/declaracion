@@ -33,7 +33,13 @@ const json = {
              "name": "text4",
              "isRequired": true,
              "title": "CUIT del Usuario Actual"
-            }
+            },
+
+            {
+              "name": "text5",
+              "isRequired": true,
+              "title": "Dominio de algún Vehículo"
+             }
            ]
           },
           {
