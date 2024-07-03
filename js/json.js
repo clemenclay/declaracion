@@ -11,8 +11,9 @@ const json = {
           {
            "type": "multipletext",
            "name": "question1",
-           "title": "Compete los datos y Genere la Declaracion jurada",
-           
+           "title": "Declaracion jurada",
+  
+
            "items": [
             {
              "name": "text1",
@@ -27,12 +28,17 @@ const json = {
             {
              "name": "text3",
              "isRequired": true,
-             "title": "Usuario Actual (Mail)"
+             "title": "Usuario Actual (Mail)",
+             "inputType": "email"
             },
             {
              "name": "text4",
              "isRequired": true,
-             "title": "CUIT del Usuario Actual"
+             "title": "CUIT del Usuario Actual",
+             "maskType": "pattern",
+             "maskSettings": {
+             "pattern": "99-99999999-9"
+       }
             },
 
             {

@@ -25,3 +25,22 @@ body {
     --background-dim: white;
     /* --background-dim-light: #4d4d4d; */
 }
+
+.sd-multipletext__item-title {
+    min-width: 30%;
+}
+
+.sd-element__title {
+    outline: none;
+    font-family: "Nunito", "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    line-height: 1.2 !important;
+   /* font-size: 2.3125rem !important; */
+    font-weight: 700 !important;
+    margin-bottom: 1rem !important;
+    
+}
+
+.sd-input {font-family: "Nunito", "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 600;
+    line-height: 1.2;}
+    

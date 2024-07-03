@@ -43,6 +43,9 @@ survey.applyTheme({
     "backgroundImageAttachment": "scroll",
     "backgroundImageFit": "cover",
     "cssVariables": {
+
+// "--sjs-font-size": "1.75em",
+
         "--sjs-corner-radius": "4px",
         "--sjs-base-unit": "8px",
         "--sjs-shadow-small": "0px 0px 0px 1px rgba(0, 0, 0, 0.05), 0px 8px 16px 0px rgba(0, 0, 0, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.1)",
@@ -51,7 +54,7 @@ survey.applyTheme({
         "--sjs-border-light": "rgba(0, 0, 0, 0.2)",
         "--sjs-general-backcolor": "rgba(255, 255, 255, 1)",
         "--sjs-general-backcolor-dark": "rgba(255, 216, 77, 1)",
-        "--sjs-general-backcolor-dim-light": "rgba(255, 216, 77, 1)",
+        "--sjs-general-backcolor-dim-light": "#f3f6f9",
         "--sjs-general-backcolor-dim-dark": "rgba(255, 216, 77, 1)",
         "--sjs-general-forecolor": "rgba(0, 0, 0, 1)",
         "--sjs-general-forecolor-light": "rgba(0, 0, 0, 1)",
