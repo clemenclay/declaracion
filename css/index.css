@@ -1,46 +1,58 @@
 body #creatorElement {
-    /* SurveyJS Creator V1 */
-    --primary-color: #7ff07f;
-    --secondary-color: #1ab394;
-    --primary-text-color: #4a4a4a;
-    --secondary-text-color: #a7a7a7;
-    --inverted-text-color: #ffffff;
-    --primary-hover-color: #6fe06f;
-    --selection-border-color: #1ab394;
-    --primary-icon-color: #3d4d5d;
-    --primary-bg-color: #f8f8f8;
-    --secondary-bg-color: #f4f4f4;
-    --primary-border-color: #e7eaec;
-    --secondary-border-color: #ddd;
-    --error-color: #ed5565;
+  /* SurveyJS Creator V1 */
+  --primary-color: #7ff07f;
+  --secondary-color: #1ab394;
+  --primary-text-color: #4a4a4a;
+  --secondary-text-color: #a7a7a7;
+  --inverted-text-color: #ffffff;
+  --primary-hover-color: #6fe06f;
+  --selection-border-color: #1ab394;
+  --primary-icon-color: #3d4d5d;
+  --primary-bg-color: #f8f8f8;
+  --secondary-bg-color: #f4f4f4;
+  --primary-border-color: #e7eaec;
+  --secondary-border-color: #ddd;
+  --error-color: #ed5565;
 }
 body {
-    /* SurveyJS Creator V2 */
-    --primary: #1ab7fa;
-    --primary-light: rgba(26, 183, 250, 0.1);
-    --foreground: rgb(5, 5, 5);
-    --primary-foreground: #ffffff;
-    --secondary: #1ab7fa;
-    --background: white;
-    --background-dim: white;
-    /* --background-dim-light: #4d4d4d; */
+  /* SurveyJS Creator V2 */
+  --primary: #1ab7fa;
+  --primary-light: rgba(26, 183, 250, 0.1);
+  --foreground: rgb(5, 5, 5);
+  --primary-foreground: #ffffff;
+  --secondary: #1ab7fa;
+  --background: white;
+  --background-dim: white;
+  /* --background-dim-light: #4d4d4d; */
 }
 
 .sd-multipletext__item-title {
-    min-width: 30%;
+  min-width: 30%;
+}
+
+.sd-page .sd-page__title {
+  font-family: "Nunito", "Open Sans", system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .sd-element__title {
-    outline: none;
-    font-family: "Nunito", "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
-    line-height: 1.2 !important;
-   /* font-size: 2.3125rem !important; */
-    font-weight: 700 !important;
-    margin-bottom: 1rem !important;
-    
+  outline: none;
+  font-family: "Nunito", "Open Sans", system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  line-height: 1.2 !important;
+  /* font-size: 2.3125rem !important; */
+  font-weight: 700 !important;
+  margin-bottom: 1rem !important;
+  margin-bottom: 6px !important;
 }
 
-.sd-input {font-family: "Nunito", "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-weight: 600;
-    line-height: 1.2;}
-    
+.sd-input {
+  font-family: "Nunito", "Open Sans", system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 600;
+  line-height: 1.2;
+  box-shadow: 0 0 0 2px #e6ebf0;
+}
