@@ -60,7 +60,7 @@ survey.applyTheme({
     "--sjs-general-backcolor-dim-light": "#f3f6f9",
     "--sjs-general-backcolor-dim-dark": "rgba(255, 216, 77, 1)",
     "--sjs-general-forecolor": "rgba(0, 0, 0, 1)",
-    "--sjs-general-forecolor-light": "rgba(0, 0, 0, 1)",
+    "--sjs-general-forecolor-light": "#9eaab8",
     "--sjs-general-dim-forecolor": "rgba(0, 0, 0, 1)",
     "--sjs-general-dim-forecolor-light": "rgba(0, 0, 0, 1)",
     "--sjs-secondary-backcolor": "rgba(255, 152, 20, 1)",
