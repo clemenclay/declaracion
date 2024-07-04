@@ -73,3 +73,21 @@ body {
 .sd-element--with-frame {
   box-shadow: 0 0 0 2px #f3f6f9;
 }
+
+.sd-input--error {
+  box-shadow: 0 0 0 2px #c93b3bb3 !important;
+}
+
+.sd-error {
+  font-size: medium;
+  background: white;
+}
+
+.sd-element--with-frame.sd-question--title-top
+  > .sd-question__erbox--above-question {
+  margin-bottom: 0;
+  margin-top: 8px;
+  margin-left: -11px;
+  background: none;
+  float: left;
+}
