@@ -31,9 +31,14 @@ body {
 }
 
 .sd-page .sd-page__title {
+  margin: 0 auto;
   font-family: "Nunito", "Open Sans", system-ui, -apple-system, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.sd-question__header--location-top {
+  padding-bottom: 0;
 }
 
 .sd-element__title {
