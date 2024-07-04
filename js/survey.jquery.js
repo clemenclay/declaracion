@@ -33122,7 +33122,7 @@
             actionsCellPrefix: "sd-table__cell-action",
             actionsCell: "sd-table__cell sd-table__cell--actions",
             actionsCellDrag: "sd-table__cell--drag",
-            buttonAdd: "sd-matrixdynamic__add-btn",
+            buttonAdd: "btn btn-link active",
             buttonRemove: "sd-action--negative sd-matrixdynamic__remove-btn",
             iconAdd: "sd-hidden",
             iconRemove: "",
