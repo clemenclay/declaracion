@@ -69,3 +69,7 @@ body {
     ),
     0 0 0 2px #005387;
 }
+
+.sd-element--with-frame {
+  box-shadow: 0 0 0 2px #f3f6f9;
+}
