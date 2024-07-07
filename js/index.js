@@ -34,6 +34,8 @@ $(document).ready(function () {
   $("#deshabilit").hide();
 });
 
+survey.questionErrorLocation = "bottom";
+
 // survey.applyTheme(SurveyTheme.ContrastLight);
 
 survey.applyTheme({

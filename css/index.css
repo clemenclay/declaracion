@@ -91,3 +91,35 @@ body {
   background: none;
   float: left;
 }
+
+.invalid-feedback {
+  display: block !important;
+}
+
+.sd-element--with-frame > .sd-element__erbox {
+  margin-top: -18px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-bottom: 6px;
+  width: calc(100% + 0 * var(--sd-base-padding));
+}
+
+.invalid-feedback {
+  display: none;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 1.1em !important;
+  color: #c93b3b;
+  display: inline-flex !important;
+}
+
+.sd-root-modern {
+  padding-bottom: 10px !important;
+  --sd-base-padding: calc(3 * var(--sjs-base-unit, var(--base-unit, 8px)));
+  --sd-base-vertical-padding: calc(
+    2 * var(--sjs-base-unit, var(--base-unit, 8px))
+  );
+  --sd-page-vertical-padding: calc(
+    3 * var(--sjs-base-unit, var(--base-unit, 8px))
+  );
+}
